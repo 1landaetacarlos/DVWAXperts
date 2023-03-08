@@ -3,3 +3,14 @@ version: v1
 id:
   org: 3e6e2ab4-5522-49a4-a57c-a8d78d3d0f4f
   app: 936a0e28-4d18-49b2-b4bc-7eb782929fd8
+scanners:
+ - sast
+ - dast
+ - secret
+ - sca
+ - iac
+ - container 
+dast:
+ url: https://github.com/1landaetacarlos/DVWAXperts
+ fortipentest_scanner: false #true|false
+ full_scan: true #true|false
